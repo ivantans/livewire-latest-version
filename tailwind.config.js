@@ -6,7 +6,12 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'inter':['Inter'],
+        'fira': ['Fira Code']
+      }
+    },
   },
   plugins: [],
 }
